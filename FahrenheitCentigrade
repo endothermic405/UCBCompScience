@@ -1,0 +1,11 @@
+#Centigrade to Fahrenheit
+Centigrade = float(input("Input temperature in Fahrenheit: "))
+  Fahrenheit = Centigrade+32
+  Fahrenheit = Centigrade/1.8
+print (Centigrade, "Centigrade equals " + str(Fahrenheit) + " Fahrenheit")
+
+#Fahrenheit to Centigrade
+Fahrenheit = float(input("Input temperature in Fahrenheit:"))
+  Centigrade = Fahrenheit-32
+  Centigrade = Centigrade/1.8
+print (Fahrenheit, "Fahrenheit equals " + str(Centigrade) + " Centigrade")
